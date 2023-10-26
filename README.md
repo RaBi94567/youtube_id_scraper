@@ -16,24 +16,19 @@ dependencies:
 
 To use the package, follow these steps.
 
-1. Import the package in your Dart code.
-```dart
-import 'package:youtube_id_scraper/youtube_id_scraper.dart';```
+//1. Import the package in your Dart code.
+import 'package:youtube_id_scraper/youtube_id_scraper.dart';
 
-2. Create an instance of the YouTubeIDScraper class.
-```dart
-YouTubeIDScraper ytscrab = YouTubeIDScraper();```
+//2. Create an instance of the YouTubeIDScraper class.
+YouTubeIDScraper ytscrab = YouTubeIDScraper();
 
-3. Define a YouTube video URL.
-```dart
-String url = "https://www.youtube.com/watch?v=abcdefghijk";```
+//3. Define a YouTube video URL.
+String url = "https://www.youtube.com/watch?v=abcdefghijk";
 
-4. Access the getVideoID method to extract video details.
-```dart
-var videoDetails = ytscrab.getVideoID(url);```
+//4. Access the getVideoID method to extract video details.
+var videoDetails = ytscrab.getVideoID(url);
 
-5. Retrieve and use the extracted details, for example.
-```dart
+//5. Retrieve and use the extracted details, for example.
 print(videoDetails.id); // Print the ID // Print null if no id found
 print(videoDetails.errorLog); // Print the Error Log // Print null if no error found
 print(videoDetails.errorDescription); // Print the Error Description // Print null if no error found

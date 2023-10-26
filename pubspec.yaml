@@ -1,6 +1,6 @@
 name: youtube_id_scraper
 description: A package to extract YouTube video IDs and other details from URLs.
-version: 1.0.2
+version: 1.0.3
 homepage: https://github.com/RaBi94567/youtube_id_scraper/
 
 environment:
@@ -17,3 +17,5 @@ dev_dependencies:
   flutter_lints: ^2.0.0
 
 flutter:
+
+example: example.md
