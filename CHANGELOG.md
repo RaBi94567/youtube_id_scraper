@@ -1,3 +1,7 @@
+## 1.0.2
+
+More Docs Added 
+
 ## 1.0.1
 
 Proper Documentation Added
